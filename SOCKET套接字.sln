@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOCKET_SERVER", "SOCKET套接字\SOCKET_SERVER.csproj", "{DFEA8910-A55C-46D3-9DD2-7A5421EF2F4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOCKET_CLIENT", "SOCKET_CLIENT\SOCKET_CLIENT.csproj", "{575F8F72-3793-4704-B80D-5C2238C89F4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFEA8910-A55C-46D3-9DD2-7A5421EF2F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFEA8910-A55C-46D3-9DD2-7A5421EF2F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFEA8910-A55C-46D3-9DD2-7A5421EF2F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFEA8910-A55C-46D3-9DD2-7A5421EF2F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575F8F72-3793-4704-B80D-5C2238C89F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575F8F72-3793-4704-B80D-5C2238C89F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575F8F72-3793-4704-B80D-5C2238C89F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575F8F72-3793-4704-B80D-5C2238C89F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
