@@ -29,10 +29,10 @@ namespace SOCKET_CLIENT
                 IPEndPoint point = new IPEndPoint(ip, Convert.ToInt32(textBoxPort.Text));
                 socketsend.Connect(point);
                 showMsg("连接成功");
-
                 Thread th = new Thread(receive);
                 th.IsBackground = true;
                 th.Start();
+                
             }
             catch { }
         }
